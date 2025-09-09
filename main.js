@@ -209,17 +209,17 @@
 //   }
 // }
 
-// const shape = new Shape("blue", false);
+// const shape = new Shape("red", false);
 // console.log("Shape color:", shape.getColor());
 // // console.log("Shape filled:", shape.isFilled());
 
-// const circle = new Circle(5, "green", true);
+// const circle = new Circle(8, "yellow", true);
 // console.log("\nCircle color:", circle.getColor());
 // // console.log("Circle filled:", circle.isFilled());
 // // console.log("Circle area:", circle.getArea().toFixed(3)); 
 // // console.log("Circle perimeter:", circle.getPerimeter().toFixed(3));
 
-// const rect = new Rectangle(4, 6, "yellow", true);
+// const rect = new Rectangle(5, 10, "green", true);
 // console.log("\nRectangle color:", rect.getColor());
 // // console.log("Rectangle area:", rect.getArea());
 // // console.log("Rectangle perimeter:", rect.getPerimeter());
