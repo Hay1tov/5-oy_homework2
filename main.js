@@ -1,3 +1,4 @@
+'use strict'
 //                                                           No_1
 
 // class Triangle {
@@ -229,10 +230,128 @@
 //                                                           No_6
 
 
+// class Person {
+//   #name;
+//   #address;
 
+//   constructor(name, address) {
+//     this.#name = name;
+//     this.#address = address;
+//   }
+
+//   getName() {
+//     return this.#name;
+//   }
+
+//   setName(name) {
+//     this.#name = name;
+//   }
+
+//   getAddress() {
+//     return this.#address;
+//   }
+
+//   setAddress(address) {
+//     this.#address = address;
+//   }
+// }
+
+// class Student extends Person {
+//   #faculty;
+//   #year;
+//   #university;
+
+//   constructor(name, address, faculty, year, university) {
+//     super(name, address);
+//     this.#faculty = faculty;
+//     this.#year = year;
+//     this.#university = university;
+//   }
+
+//   getFaculty() {
+//     return this.#faculty;
+//   }
+
+//   setFaculty(faculty) {
+//     this.#faculty = faculty;
+//   }
+
+//   getYear() {
+//     return this.#year;
+//   }
+
+//   setYear(year) {
+//     this.#year = year;
+//   }
+
+//   getUniversity() {
+//     return this.#university;
+//   }
+
+//   setUniversity(university) {
+//     this.#university = university;
+//   }
+// }
+
+// class Employee extends Person {
+//   #salary;
+//   #work;
+
+//   constructor(name, address, salary, work) {
+//     super(name, address);
+//     this.#salary = salary;
+//     this.#work = work;
+//   }
+
+//   getSalary() {
+//     return this.#salary;
+//   }
+
+//   setSalary(salary) {
+//     if (salary > 0) {
+//       this.#salary = salary;
+//     } else {
+//       console.log("Ish haqi 0 dan katta bo'lishi kerak");
+//     }
+//   }
+
+//   getWork() {
+//     return this.#work;
+//   }
+
+//   setWork(work) {
+//     this.#work = work;
+//   }
+// }
+
+// const student = new Student("Eshmat", "Tashkent", "AI", 3, "TATU");
+// console.log("Student:");
+// console.log(student.getName());
+// console.log(student.getAddress());
+// console.log(student.getFaculty());
+// console.log(student.getYear());
+// console.log(student.getUniversity());
+
+// student.setYear(4);
+// console.log("Yangi yil:", student.getYear());
+
+// const employee = new Employee("Toshmat", "Samarkand", 500, "Developer");
+// console.log("\nEmployee:");
+// console.log(employee.getName());
+// console.log(employee.getAddress());
+// console.log(employee.getSalary());
+// console.log(employee.getWork());
+
+// employee.setSalary(700);
+// console.log("Yangi oylik:", employee.getSalary());
 
 
 //                                                           No_7
+
+
+
+
+
 //                                                           No_8
 //                                                           No_9
 //                                                           No_10
